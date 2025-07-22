@@ -20,10 +20,11 @@ const Header: React.FC<HeaderProps> = ({ onOpenSettings }) => {
     <View style={styles.header}>
       <View style={styles.titleContainer}>
         <Image
-          source="https://images.unsplash.com/photo-1743987508794-aaee8929ea82?q=80&w=200&auto=format&fit=crop"
-          style={styles.avatar}
-          contentFit="cover"
-        />
+         import ScarlettAvatar from '@/assets/images/Scar.png';
+           source={ScarlettAvatar}
+  style={styles.avatar}
+  contentFit="cover"
+/>
         <View>
           <Text style={styles.title}>Scarlett AI</Text>
           <Text style={styles.subtitle}>Your flirty AI companion</Text>
