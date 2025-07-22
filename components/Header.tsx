@@ -4,6 +4,7 @@ import { Image } from 'expo-image';
 import { PlusCircle } from 'lucide-react-native';
 import Colors from '@/constants/colors';
 import useChatStore from '@/store/chat-store';
+import ScarlettAvatar from '@/assets/images/Scar.png'; // ✅ импорт аватара
 
 interface HeaderProps {
   onOpenSettings: () => void;
@@ -20,11 +21,10 @@ const Header: React.FC<HeaderProps> = ({ onOpenSettings }) => {
     <View style={styles.header}>
       <View style={styles.titleContainer}>
         <Image
-         import ScarlettAvatar from '@/assets/images/Scar.png';
-           source={ScarlettAvatar}
-  style={styles.avatar}
-  contentFit="cover"
-/>
+          source={ScarlettAvatar}
+          style={styles.avatar}
+          contentFit="cover"
+        />
         <View>
           <Text style={styles.title}>Scarlett AI</Text>
           <Text style={styles.subtitle}>Your flirty AI companion</Text>
