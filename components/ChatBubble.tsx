@@ -74,7 +74,7 @@ const ChatBubble: React.FC<ChatBubbleProps> = ({ message }) => {
         ]}>
           {!isUser && (
             <Image
-              source="https://images.unsplash.com/photo-1743987508794-aaee8929ea82?q=80&w=200&auto=format&fit=crop"
+              source={ScarlettAvatar}
               style={styles.avatar}
               contentFit="cover"
             />
