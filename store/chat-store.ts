@@ -165,7 +165,7 @@ const useChatStore = create<ChatState>()(
               'X-Title': 'Scarlett AI'
             },
             body: JSON.stringify({
-              model: 'microsoft/wizardlm-2-8x22b', // Using MythoMax as requested
+              model: 'microsoft/wizardlm-2-8x22b',
               messages: messages,
               max_tokens: 512
             })
@@ -238,7 +238,7 @@ const useChatStore = create<ChatState>()(
               'X-Title': 'Scarlett AI'
             },
             body: JSON.stringify({
-              model: 'microsoft/wizardlm-2-8x22b', // Using MythoMax as requested
+              model: 'microsoft/wizardlm-2-8x22b',
               messages: messages,
               max_tokens: 512
             })
