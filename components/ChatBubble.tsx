@@ -8,6 +8,8 @@ import useChatStore from '@/store/chat-store';
 import useVoiceStore from '@/store/voice-store';
 import { cleanAIMessage } from '@/utils/message-formatter';
 import FullScreenImage from './FullScreenImage';
+import ScarlettAvatar from '@/assets/images/Scar.png';
+
 
 interface ChatBubbleProps {
   message: Message;
