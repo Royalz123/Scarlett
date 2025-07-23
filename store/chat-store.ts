@@ -250,8 +250,7 @@ const useChatStore = create<ChatState>()(
   top_p: 0.92,
   presence_penalty: 1.0,
   frequency_penalty: 0.8
-            })
-          });
+});
           
           if (!response.ok) {
             const errorData = await response.json();
