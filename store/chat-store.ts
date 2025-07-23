@@ -168,6 +168,8 @@ const useChatStore = create<ChatState>()(
               model: 'nousresearch/deephermes-3-mistral-24b-preview',
               messages: messages,
               max_tokens: 180
+"temperature": 1.1,
+"top_p": 0.95
             })
           });
           
@@ -241,6 +243,8 @@ const useChatStore = create<ChatState>()(
               model: 'nousresearch/deephermes-3-mistral-24b-preview',
               messages: messages,
               max_tokens: 180
+"temperature": 1.1,
+"top_p": 0.95
             })
           });
           
