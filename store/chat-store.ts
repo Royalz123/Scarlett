@@ -167,9 +167,12 @@ const useChatStore = create<ChatState>()(
             body: JSON.stringify({
               model: 'nousresearch/deephermes-3-mistral-24b-preview',
               messages: messages,
-              max_tokens: 180,
-temperature: 1.0,
-top_p: 0.95
+            max_tokens: 280,
+  temperature: 1.2,
+  top_p: 0.92,
+  presence_penalty: 1.0,
+  frequency_penalty: 0.8
+})
             })
           });
           
@@ -242,9 +245,11 @@ top_p: 0.95
             body: JSON.stringify({
               model: 'nousresearch/deephermes-3-mistral-24b-preview',
               messages: messages,
-              max_tokens: 180,
-temperature: 1.0,
-top_p: 0.95
+               max_tokens: 280,
+  temperature: 1.2,
+  top_p: 0.92,
+  presence_penalty: 1.0,
+  frequency_penalty: 0.8
             })
           });
           
