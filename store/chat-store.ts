@@ -165,7 +165,7 @@ const useChatStore = create<ChatState>()(
               'X-Title': 'Scarlett AI'
             },
             body: JSON.stringify({
-              model: 'nousresearch/nous-hermes-2-mistral',
+              model: 'nousresearch/deephermes-3-mistral-24b-preview',
               messages: messages,
               max_tokens: 512
             })
@@ -238,7 +238,7 @@ const useChatStore = create<ChatState>()(
               'X-Title': 'Scarlett AI'
             },
             body: JSON.stringify({
-              model: 'nousresearch/nous-hermes-2-mistral',
+              model: 'nousresearch/deephermes-3-mistral-24b-preview',
               messages: messages,
               max_tokens: 512
             })
