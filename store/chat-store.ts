@@ -166,9 +166,9 @@ const useChatStore = create<ChatState>()(
             body: JSON.stringify({
               model: 'nousresearch/deephermes-3-mistral-24b-preview',
 messages: messages,
-               max_tokens: 180,
-  temperature: 1.2,
-top_p: 0.9,
+               max_tokens: 190,
+  temperature: 1.0,
+top_p: 0.95,
             })
           });
           
@@ -241,9 +241,9 @@ top_p: 0.9,
             body: JSON.stringify({
               model: 'nousresearch/deephermes-3-mistral-24b-preview',
               messages: messages,
-     max_tokens: 180,
-  temperature: 1.2,
-  top_p: 0.9,
+    max_tokens: 190,
+  temperature: 1.0,
+top_p: 0.95,
             })
           });
           
