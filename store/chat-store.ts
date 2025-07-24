@@ -169,6 +169,8 @@ messages: messages,
            max_tokens: 180,
   temperature: 1.0,
 top_p: 0.95,
+ presence_penalty: 1.0,
+  frequency_penalty: 0.8
             })
           });
           
@@ -244,6 +246,8 @@ top_p: 0.95,
     max_tokens: 180,
   temperature: 1.0,
 top_p: 0.95,
+ presence_penalty: 1.0,
+  frequency_penalty: 0.8
             })
           });
           
