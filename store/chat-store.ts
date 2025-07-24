@@ -168,7 +168,7 @@ const useChatStore = create<ChatState>()(
 messages: messages,
                max_tokens: 180,
   temperature: 1.2,
-  top_p: 1.1,
+top_p: 0.9,
             })
           });
           
@@ -243,7 +243,7 @@ messages: messages,
               messages: messages,
      max_tokens: 180,
   temperature: 1.2,
-  top_p: 1.1,
+  top_p: 0.9,
             })
           });
           
